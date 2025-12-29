@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 04 - Manejo del DOM</title>
+</head>
+<body>
+
+    <!-- 1. Repetidor de Palabras -->
+    <section id="repetidor">
+        <h2>1. Repetidor de Palabras</h2>
+
+        <label>
+            Palabra:
+            <input type="text" id="palabra">
+        </label>
+
+        <label>
+            Cantidad:
+            <input type="number" id="cantidad" min="1">
+        </label>
+
+        <button id="btnRepetir">Repetir</button>
+        <p id="resultadoRepetir"></p>
+    </section>
+
+    <hr>
+
+    <!-- 2. Cambio de Color -->
+    <section id="colorFondo">
+        <h2>2. Cambio de Color de Fondo</h2>
+
+        <input type="color" id="selectorColor">
+        <button id="btnColor">Aplicar</button>
+
+        <p id="textoEjemplo">
+            Este es un texto de ejemplo.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- 3. Calculadora -->
+    <section id="calculadora">
+        <h2>3. Calculadora Básica</h2>
+
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+
+        <button id="btnCalcular">Calcular</button>
+
+        <div id="resultadoCalculadora">
+            <p>Suma: <span id="suma"></span></p>
+            <p>Resta: <span id="resta"></span></p>
+            <p>Multiplicación: <span id="multi"></span></p>
+            <p>División: <span id="divi"></span></p>
+            <p><strong>Total: <span id="total"></span></strong></p>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- 4. Inversor -->
+    <section id="inversor">
+        <h2>4. Inversor de Texto</h2>
+
+        <input type="text" id="textoInvertir">
+        <button id="btnInvertir">Invertir</button>
+
+        <p id="resultadoInverso"></p>
+    </section>
+
+    <script src="./app.js" defer></script>
+</body>
+</html>
